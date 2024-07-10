@@ -19,6 +19,10 @@ Employee e;
 		return e.getmsg();
 	}
 	
+	@GetMapping(value="/getmsg")
+	public String getmsg() {
+		return "ashok";
+	}
 	
 	
 	
